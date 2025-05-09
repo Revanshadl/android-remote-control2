@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">RemoteScreen</string>
+    <string name="accessibility_service_description">Remote control accessibility service</string>
+</resources>
