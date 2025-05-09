@@ -79,7 +79,7 @@ public class MainActivity extends Activity {
     private void startStreaming() {
         new Thread(() -> {
             try {
-                mSocket = new Socket("192.168.1.100", 5001); // Replace with your server IP
+                mSocket = new Socket("192.168.162.177", 5001); // Replace with your server IP
                 mOutputStream = mSocket.getOutputStream();
                 while (mRunning) {
                     Image image = mImageReader.acquireLatestImage();
